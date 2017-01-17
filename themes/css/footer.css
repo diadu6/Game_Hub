@@ -1,0 +1,165 @@
+<!--CSS CODE
+
+/*****FOOTER*******/
+/* ==========================================================================
+   Tablets
+   ========================================================================== */
+@media only screen and (min-width: 40em) {
+  footer {
+    padding: 0;
+    background-image: url("//emu.edu/images/responsive/footers/footer-full.jpg");
+    /* a*/
+    /* #learn, #give */
+    /* #give */
+  }
+  footer .wrap {
+    padding: 0 0 2em;
+    position: relative;
+  }
+  footer ul#social-links {
+    position: absolute;
+    bottom: 2.5em;
+    right: 0;
+  }
+  footer ul#social-links a:hover,
+  footer ul#social-links a:visited:hover {
+    opacity: 0.9;
+  }
+  footer #other-logos {
+    text-align: left;
+  }
+  footer ul.utilities {
+    display: none;
+  }
+  footer a,
+  footer a:visited {
+    color: #ffffff;
+    padding: 0 .6em 0 0;
+  }
+  footer a:hover,
+  footer a:visited:hover {
+    color: #e49a30;
+    text-decoration: none;
+  }
+  footer #learn,
+  footer #give {
+    display: block;
+    visibility: visible;
+  }
+  footer a#logo,
+  footer a:visited#logo {
+    margin: 1.4em 0;
+  }
+  footer .left {
+    float: left;
+    margin: 0;
+    width: 40%;
+    text-align: left;
+    /* .info-list */
+  }
+  footer .left .info-list {
+    display: block;
+    visibility: visible;
+    padding: 0;
+    list-style-type: none;
+    margin: 0 auto 1em;
+    text-align: center;
+    width: auto;
+    /* li */
+  }
+  footer .left .info-list li {
+    display: inline-block;
+    float: left;
+    font-size: 90%;
+    border-right: 1px solid #ffffff;
+    line-height: 1em;
+    margin: 0 .6em 0.5em 0;
+    zoom: 1;
+    /* IE hack */
+    *display: inline;
+    /* IE hack */
+  }
+  footer .left .info-list li.last {
+    border-right: none;
+  }
+  footer #learn,
+  footer #give {
+    width: 29.25%;
+    float: left;
+    margin-right: 1%;
+    /* ul */
+  }
+  footer #learn a.footer-button,
+  footer #give a.footer-button,
+  footer #learn a:visited.footer-button,
+  footer #give a:visited.footer-button {
+    background: transparent url("//emu.edu/images/2011/graphics/bg-footer-button.png") no-repeat left bottom;
+    color: #e49a30;
+    display: block;
+    width: 87%;
+    font-size: 220%;
+    font-weight: bold;
+    padding: 3em 0 1.4em 13%;
+  }
+  footer #learn a.footer-button:hover,
+  footer #give a.footer-button:hover,
+  footer #learn a:visited.footer-button:hover,
+  footer #give a:visited.footer-button:hover {
+    text-decoration: none;
+    background-position: -310px bottom;
+  }
+  footer #learn ul,
+  footer #give ul {
+    list-style-type: none;
+  }
+  footer #learn ul li,
+  footer #give ul li {
+    font-size: 90%;
+    line-height: 130%;
+  }
+  footer #learn ul li a,
+  footer #give ul li a,
+  footer #learn ul li a:visited,
+  footer #give ul li a:visited {
+    color: #ffffff;
+  }
+  footer #learn ul li a:hover,
+  footer #give ul li a:hover,
+  footer #learn ul li a:visited:hover,
+  footer #give ul li a:visited:hover {
+    color: #e49a30;
+  }
+  footer #give {
+    margin: 0;
+  }
+  footer #give a.footer-button,
+  footer #give a:visited.footer-button {
+    padding-top: 1.8em;
+  }
+}
+/* ==========================================================================
+   Larger tablets, small desktop computers
+   ========================================================================== */
+/* Screens around 980 pixels wide */
+@media only screen and (min-width: 64.9em) {
+  footer .utilities.primary,
+  footer .utilities.secondary {
+    max-width: 61.25em;
+    left: 50%;
+    margin-left: -30.625em;
+  }
+}
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  /* Print Styles */
+  footer#footer {
+    display: none !important;
+    visbility: hidden;
+  }
+}
+/*****FOOTER*******/
+
+-->
